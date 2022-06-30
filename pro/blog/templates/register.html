@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>register page</title>
+        <link
+    {% comment %} rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> {% endcomment %}
+    {% comment %} class="animate__animated animate__heartBeat" {% endcomment %}
+
+
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'css/signup.css' %}">
+    </head>
+    <body>
+        
+        <form method="POST">
+            {% csrf_token %}
+            <div class="container">
+                <h3>SignUp</h3>
+                <input type="text" name="name" value="" placeholder="Enter Your Name" id="name"><br>
+                <input type="text" name ="user_name" value="" placeholder="UserName" id="user_name"><br>
+                <input type="text" name="password" value="" placeholder="Enter Password" id="pass"><br>
+                <input type="submit" name="btn1" id="btn1">
+                
+            </div>
+        </form>
+    </body>
+</html>

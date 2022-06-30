@@ -1,0 +1,80 @@
+body {
+    /* background-color: rgb(20, 20, 20); */
+    /* background-image: linear-gradient(to right, #1d4350, #a43931); */
+    background-image: linear-gradient(to right, #eecda3, #ef629f);
+    /* background-color: #aa4b6b, #6a6b83, #3b8d99; */
+    /* background-image: linear-gradient(rgb(56, 55, 55), rgb(91, 25, 94), rgb(207, 166, 166)); */
+}
+
+h3 {
+    margin-top: 10px;
+    padding-left: 160px;
+    color: wheat;
+}
+
+.container {
+    /* background-color: rgb(48, 46, 46); */
+    /* background-color: rgb(55, 48, 61); */
+    /* background-image: linear-gradient(to right, rgb(41, 40, 40), rgb(88, 86, 88), rgb(94, 71, 94)); */
+    /* background-image: linear-gradient(to right, #fafafa, #fffefe); */
+    height: 400px;
+    width: 400px;
+    margin-top: 200px;
+    margin-left: 600px;
+    border-radius: 1%;
+    border-style: hidden;
+    /* margin-right: 40px; */
+}
+
+#name {
+    margin-left: 25px;
+    height: 30px;
+    width: 350px;
+    margin-top: 7px;
+    /* background-color: rgb(55, 48, 61); */
+    border-width: thin;
+    border-style: hidden;
+    border-color: rgb(55, 48, 61);
+    background: rgb(36, 35, 35);
+    color: rgb(119, 119, 119);
+    text-align: center;
+}
+
+#user_name {
+    margin-left: 25px;
+    height: 30px;
+    width: 350px;
+    margin-top: 7px;
+    /* background-color: rgb(55, 48, 61); */
+    border-width: thin;
+    border-style: hidden;
+    border-color: rgb(55, 48, 61);
+    background: rgb(36, 35, 35);
+    color: rgb(119, 119, 119);
+    text-align: center;
+}
+
+#pass {
+    margin-left: 25px;
+    height: 30px;
+    width: 350px;
+    margin-top: 7px;
+    /* background-color: rgb(55, 48, 61); */
+    border-width: thin;
+    border-style: hidden;
+    border-color: rgb(55, 48, 61);
+    background: rgb(36, 35, 35);
+    color: rgb(119, 119, 119);
+    text-align: center;
+}
+
+#btn1 {
+    margin-left: 80px;
+    height: 40px;
+    width: 250px;
+    margin-top: 4px;
+    background-color: rgb(158, 69, 66);
+    border-width: thin;
+    border-style: hidden;
+    color: #dacccb;
+}

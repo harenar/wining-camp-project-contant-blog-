@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>blog</title>
+        {% comment %} {% load static %}
+        <link rel="stylesheet" href="{% static 'css/home.css' %}"> {% endcomment %}
+    </head>
+    <body>
+        <div>
+            
+
+
+
+            <a href="signup">SignUp</a>
+            <a href="login">LoginIn</a>
+            
+        </div>
+        <form method="POST">
+             {% csrf_token %}
+             <div class="base">
+                <input type="text" name="uname" value="" placeholder="your name"><br>
+                <input type="text" name="title" value="" placeholder="your title"><br>
+                <textarea name="desc" cols="40" rows="30" placeholder="write your content...."></textarea>
+                <button type="submit" name="btn1" value="">post</button>
+             </div>
+
+
+             {% for i in service_data %}
+            <div>
+                <label>User Uame: </label>
+                {{i.username | upper}}<br>
+
+                <label>Title Name:</label>
+                {{i.Ctitle | upper}}<br> 
+                {% comment %} upper use to convert all lower case to upper {% endcomment %}
+
+                <label>Content: </label>
+                <p>{{i.description | capfirst}}</p> <br><br>
+
+                {% comment %} capfirst use to convert only firls letter to upper case {% endcomment %}
+
+            </div>
+            {% endfor %}
+        </form>
+    </body>
+</html>
