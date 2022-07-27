@@ -8,9 +8,10 @@ from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from django.contrib import auth
 
-
+#this is home page view
 def home(request):
 
+    #to featch all record in database
     service_data = Service.objects.all()
     # for a in service_data:
         # print(a.username)
